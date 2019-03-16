@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QQCustomEmojiCapture", "QQCustomEmojiCapture\QQCustomEmojiCapture.vcxproj", "{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Debug-Dll|x64 = Debug-Dll|x64
+		Debug-Dll|x86 = Debug-Dll|x86
+		Debug-Lib|x64 = Debug-Lib|x64
+		Debug-Lib|x86 = Debug-Lib|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		Release-Dll|x64 = Release-Dll|x64
+		Release-Dll|x86 = Release-Dll|x86
+		Release-Lib|x64 = Release-Lib|x64
+		Release-Lib|x86 = Release-Lib|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Debug|x64.ActiveCfg = Debug|x64
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Debug|x64.Build.0 = Debug|x64
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Debug|x86.ActiveCfg = Debug|Win32
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Debug|x86.Build.0 = Debug|Win32
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Debug-Dll|x64.ActiveCfg = Debug|x64
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Debug-Dll|x64.Build.0 = Debug|x64
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Debug-Dll|x86.ActiveCfg = Debug|Win32
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Debug-Dll|x86.Build.0 = Debug|Win32
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Debug-Lib|x64.ActiveCfg = Debug|x64
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Debug-Lib|x64.Build.0 = Debug|x64
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Debug-Lib|x86.ActiveCfg = Debug|Win32
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Debug-Lib|x86.Build.0 = Debug|Win32
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Release|x64.ActiveCfg = Release|x64
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Release|x64.Build.0 = Release|x64
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Release|x86.ActiveCfg = Release|Win32
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Release|x86.Build.0 = Release|Win32
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Release-Dll|x64.ActiveCfg = Release|x64
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Release-Dll|x64.Build.0 = Release|x64
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Release-Dll|x86.ActiveCfg = Release|Win32
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Release-Dll|x86.Build.0 = Release|Win32
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Release-Lib|x64.ActiveCfg = Release|x64
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Release-Lib|x64.Build.0 = Release|x64
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Release-Lib|x86.ActiveCfg = Release|Win32
+		{6F6F59F1-150B-433E-8050-34CFE1AC0DFC}.Release-Lib|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84599155-DFE7-4511-A448-5967E43C2960}
+	EndGlobalSection
+EndGlobal
