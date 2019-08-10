@@ -13,11 +13,21 @@ void CaptureEmoji(HWND hWnd) {
     if (!OpenClipboard(hWnd)) {
         return;
     }
-    if (!IsClipboardFormatAvailable(QQ_FORMAT)) {
+    UINT iFormatCode = 0;
+    wchar_t sFormatNameBuf[128];
+    do {
+        iFormatCode = EnumClipboardFormats(iFormatCode);
+        GetClipboardFormatNameW(iFormatCode, sFormatNameBuf, 127);
+        if (lstrcmpW(sFormatNameBuf, L"QQ_Unicode_RichEdit_Format") == 0) {
+            break;
+        }
+    } while (iFormatCode != 0);
+
+    if (iFormatCode == 0) {
         CloseClipboard();
         return;
     }
-    HANDLE hData = GetClipboardData(QQ_FORMAT);
+    HANDLE hData = GetClipboardData(iFormatCode);
     if (hData == nullptr) {
         CloseClipboard();
         return;
